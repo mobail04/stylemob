@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    max-width: 360px;
+    padding: 20px;
+    margin: 25px auto;
+    
+}
+.sub{
+    margin: 10px;
+
+}
+button{
+    margin-top: 15px;
+    width: 200px;
+    background-color: rgba(144, 190, 34, 0.791);
+    border: 5;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(85, 216, 28);
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ul li{
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+li a:hover{
+    color:red;
+}
+.logoimage{
+    width: 100px;
+    border-radius: 15px;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(136, 22, 22);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(85, 216, 28);
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.images{
+    width: 50%; 
+    height: 40%; 
+    border-radius: 15px;
+}
+.h2 a{
+    display: flex;
+    justify-content: center;
+}
+.textH2{
+    display: flex;
+    justify-content: center;
+}
+.imageS{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
